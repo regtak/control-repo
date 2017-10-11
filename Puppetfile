@@ -24,9 +24,9 @@ mod 'ssh',
 mod 'ntp',
   :git => 'https://github.com/regtak/puppet-ntp.git',
   :ref => 'master'
-#mod 'role',
-#  :git => 'https://github.com/regtak/puppet-role.git',
-#  :ref => 'master'
+mod 'role',
+  :git => 'https://github.com/regtak/puppet-role.git',
+  :ref => 'master'
 #mod 'profile',
 #  :git => 'https://github.com/regtak/puppet-profile.git',
 #  :ref => 'master'
