@@ -19,8 +19,8 @@ mod "puppetlabs/java",	      '1.6.0'
 
 
 mod 'ssh',
-  :git => 'https://github.com/regtak/puppet-ssh.git'
-#  :ref => 'master'
+  :git => 'https://github.com/regtak/puppet-ssh.git',
+  :ref => 'master'
 #mod 'ntp',
 #  :git => 'https://github.com/regtak/puppet-ntp.git',
 #  :ref => 'master'
