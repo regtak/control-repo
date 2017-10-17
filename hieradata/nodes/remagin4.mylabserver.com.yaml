@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'remagin2.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/remagin2'
+  },
+  'remagin2b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/remagin2b'  
+  }
+}
