@@ -36,4 +36,4 @@ mod 'profile',
   :ref => 'master'
 mod 'nginx',
   :git => 'https://github.com/regtak/puppet-nginx.git',
-  :ref => 'master',
+  :ref => 'master'
