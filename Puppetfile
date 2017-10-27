@@ -34,3 +34,6 @@ mod 'role',
 mod 'profile',
   :git => 'https://github.com/regtak/puppet-profile.git',
   :ref => 'master'
+mod 'nginx',
+  :git => 'https://github.com/regtak/puppet-nginx.git',
+  :ref => 'master',
