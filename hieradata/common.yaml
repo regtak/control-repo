@@ -13,4 +13,3 @@ profile::apache::default_vhost: false
     port: 80,
     docroot: '/var/www/remagin1b'
   }
-}
