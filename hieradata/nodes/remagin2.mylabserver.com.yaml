@@ -1,11 +1,8 @@
 ---
-profile::apache::apache_vhost_servers: {
-  'remagin2.mylabserver.com': {
-    port: 80,
-    docroot: '/var/www/remagin2'
-  },
-  'remagin2b.mylabserver.com': {
-    port: 80,
-    docroot: '/var/www/remagin2b'  
-  }
-}
+profile::nginx::vhosts:
+  - 'fqdn': 'remagin2.mylabserver.com'
+    'port': 80
+    'server_aliases': ''
+  - 'fqdn': 'remagin2b.mylabserver.com'
+    'port': 80
+    'server_aliases': 'remagin2b.mylabserver.com'
