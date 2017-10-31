@@ -29,9 +29,9 @@ $test_top_scope = "Top Scope"
 node 'remagin3.mylabserver' {
   notify {'this matches the node name' : }
 }
-node /^remagin3/ {
-  notify { "this is a node definition with regex": }
-}
+#node /^remagin3/ {
+#  notify { "this is a node definition with regex": }
+#}
 #node 'remagin1.mylabserver.com' {
 #  include pe_repo::platform::el_6_x86_64
 #  include pe_repo::platform::ubuntu_1204_amd64
