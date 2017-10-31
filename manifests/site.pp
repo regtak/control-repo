@@ -26,9 +26,8 @@ File { backup => false }
 
 $test_top_scope = "Top Scope"
 
-node 'remagin3.mylabserver.com' {
+node 'remagin3.mylabserver' {
   notify {'this matches the node name' : }
-  class {'java': }
 }
 node /^remagin3/ {
   notify { "this is a node definition with regex": }
