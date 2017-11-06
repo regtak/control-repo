@@ -39,13 +39,3 @@ node 'remagin3.mylabserver' {
 node default {
   hiera_include{'classes'}
 }
-  #$test_top_scope = "node scope_0"
-  #$node_scope_var = "node scope"
-  #notify { " test_top_scope ":
-  #  message => "This is a top scope var: ${test_top_scope}"
-  #}
-  #class {'java': }
-  #notify { "this is default node" : }
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
