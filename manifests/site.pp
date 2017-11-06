@@ -26,6 +26,12 @@ File { backup => false }
 
 $test_top_scope = "Top Scope"
 
+node 'remagin2.mylabserver.com' {
+  notify {'test-message-for-remagin2':
+    message => 'this is remagin2 with site.pp',
+  }
+}
+
 node 'remagin3.mylabserver' {
   notify {'this matches the node name' : }
 }
