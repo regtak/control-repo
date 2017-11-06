@@ -29,3 +29,5 @@ $test_top_scope = "Top Scope"
 node default {
   hiera_include{'classes'}
 }
+
+
