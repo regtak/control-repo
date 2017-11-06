@@ -6,3 +6,5 @@ profile::nginx::vhosts:
   - 'fqdn': 'remagin2b.mylabserver.com'
     'port': 80
     'server_aliases': 'remagin2b.mylabserver.com'
+classes:
+  - profile:nginx
