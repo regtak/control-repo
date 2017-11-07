@@ -25,7 +25,7 @@ File { backup => false }
 # specified in the console for that node.
 node /^remagin4/ {
 notify {'hello node4':
-  notice => 'hello there node4',
+  message => 'hello there node4',
   }
 }
 $test_top_scope = "Top Scope"
