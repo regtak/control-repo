@@ -23,7 +23,11 @@ File { backup => false }
 # definition. If there are no other nodes in this file, classes declared here
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
-
+node /^remagin4/ {
+notify {'hello node4':
+  notice => 'hello there node4',
+  }
+}
 $test_top_scope = "Top Scope"
 
 node default {
